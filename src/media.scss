@@ -1,0 +1,41 @@
+@media (max-width: 900px){
+    .aboutus__subtitle{
+        text-align: center;
+    }
+}
+
+@media (max-width: 780px){
+    .main__item{
+        flex-direction: column;
+    }
+
+    .main__img{
+        transform: rotate(90deg);
+        margin: 10px 0px;
+    }
+
+    .main__input{
+        margin: 20px 0px;
+    }
+
+    .main__hash_container{
+        margin: 10px 0px;
+    }
+}
+
+@media (max-width: 520px){
+    .main__title{
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 400px){
+    .header__item{
+        flex-direction: column;
+    }
+
+    .header__link,
+    .header__btn{
+        margin: 5px 0px;
+    }
+}

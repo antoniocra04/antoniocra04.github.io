@@ -1,0 +1,182 @@
+$mainOrange: #F96D00;
+$mainDark: #222831;
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face{
+	font-family: Roboto-Bold;
+	src: url("./fonts/Roboto-Bold.ttf");
+}
+
+@font-face{
+	font-family: Roboto-Light;
+	src: url("./fonts/Roboto-Light.ttf");
+}
+
+@font-face{
+	font-family: Roboto-med;
+	src: url("./fonts/Roboto-Medium.ttf");
+}
+
+@font-face{
+	font-family: Roboto-reg;
+	src: url("./fonts/Roboto-Regular.ttf");
+}
+
+@font-face{
+	font-family: Roboto-Thin;
+	src: url("./fonts/Roboto-Thin.ttf");
+}
+
+.highlighter{
+  color: $mainOrange;
+}
+
+.header{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0px;
+}
+
+.header__inner{
+  display: flex;
+  width: 95%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__item{
+  display: flex;
+  align-items: center;
+}
+
+.header__logo{
+  font-family: Roboto-Bold;
+  letter-spacing: 3px;
+  color: $mainDark;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.header__link{
+  font-family: Roboto-reg;
+  font-size: 14px;
+  color: $mainDark;
+  text-decoration: none;
+  margin: 0px 20px;
+  transition: all .3s ease;
+
+  &:hover{
+    color: $mainOrange;
+  }
+}
+
+.header__btn{
+  font-family: Roboto-reg;
+  font-size: 14px;
+  color: $mainDark;
+  text-decoration: none;
+  margin: 0px 20px;
+  border: 1px $mainDark solid;
+  padding: 6px 12px;
+  transition: all .3s ease;
+
+  &:hover{
+    box-shadow: inset $mainDark 103px 0 0 0;
+    color: $mainOrange;
+  }
+}
+
+.main{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 150px;
+}
+
+.main__inner{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main__item{
+  display: flex;
+  align-items: center;
+}
+
+.main__title{
+  font-family: Roboto-Bold;
+  font-size: 60px;
+  color: $mainDark;
+}
+
+.main__input{
+  padding: 10px 10px 10px 10px;
+  border: 2px $mainDark solid;
+  font-size: 20px;
+  text-align: center;
+  margin: 0px 50px;
+  font-family: Roboto-reg;
+  transition: all .3s ease;
+
+  &:focus{
+    border-color: $mainOrange;
+  }
+
+  &::placeholder{
+    font-size: 14px;
+  }
+}
+
+.main__hash_container{
+  font-family: Roboto-reg;
+  font-size: 20px;
+  border: 2px $mainDark solid;
+  width: 270px;
+  height: 48px;
+  margin: 0px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main__hash{
+  font-family: Roboto-reg;
+  font-size: 14px;
+  color: $mainOrange;
+}
+
+.aboutus{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+}
+
+.aboutus__inner{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.aboutus__title{
+  font-size: 50px;
+  font-family: Roboto-reg;
+  color: $mainOrange;
+  margin-bottom: 0px;
+}
+
+.aboutus__subtitle{
+  font-family: Roboto-reg;
+  font-size: 18px;
+  color: $mainDark;
+}
