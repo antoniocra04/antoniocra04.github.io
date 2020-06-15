@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/md5Crypto/static/css/main.e80195d0.chunk.css",
+    "main.js": "/md5Crypto/static/js/main.13019a88.chunk.js",
+    "main.js.map": "/md5Crypto/static/js/main.13019a88.chunk.js.map",
+    "runtime-main.js": "/md5Crypto/static/js/runtime-main.f28c5cb9.js",
+    "runtime-main.js.map": "/md5Crypto/static/js/runtime-main.f28c5cb9.js.map",
+    "static/js/2.2a411491.chunk.js": "/md5Crypto/static/js/2.2a411491.chunk.js",
+    "static/js/2.2a411491.chunk.js.map": "/md5Crypto/static/js/2.2a411491.chunk.js.map",
+    "index.html": "/md5Crypto/index.html",
+    "precache-manifest.b1cd403fe28c78fc689b5262c97f5570.js": "/md5Crypto/precache-manifest.b1cd403fe28c78fc689b5262c97f5570.js",
+    "service-worker.js": "/md5Crypto/service-worker.js",
+    "static/css/main.e80195d0.chunk.css.map": "/md5Crypto/static/css/main.e80195d0.chunk.css.map",
+    "static/js/2.2a411491.chunk.js.LICENSE.txt": "/md5Crypto/static/js/2.2a411491.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/md5Crypto/static/media/Roboto-Thin.321de678.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f28c5cb9.js",
+    "static/js/2.2a411491.chunk.js",
+    "static/css/main.e80195d0.chunk.css",
+    "static/js/main.13019a88.chunk.js"
+  ]
+}
